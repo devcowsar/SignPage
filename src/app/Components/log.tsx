@@ -1,12 +1,14 @@
 "use client"
 import Link from "next/link";
 import './log.css';
+import { BsGithub } from 'react-icons/bs';
+
 const Login=()=>{
     return(
         <>
         <div className="wrapper">
-	<div className="logo">
-		<img src="https://i.imgur.com/gr4XvFZ.png" alt="GitHub"/>
+	<div >
+		<BsGithub className="logo"/>
 	</div>
 	<div className="title">
 		<p>Sign in to GitHub</p>
@@ -19,14 +21,14 @@ const Login=()=>{
 		<div className="input_field">
 			<label>Password</label>
 			<input type="password" className="input"/>
-			<Link href="#" className="forgot">Forgot password?</Link>
+			<Link href={'/'} className="forgot">Forgot password?</Link>
 		</div>
 		<div className="btn">
 			<input type="submit" value="Sign in" className="sign_btn"/>
 		</div>
 	</div>
 	<div className="create_act">
-		<p>New to GitHub? <a href="#">Create an account.</a></p>
+		<p>New to GitHub? <Link href={"/"}>Create an account.</Link></p>
 	</div>
 	
 </div>	

@@ -15,7 +15,7 @@ body{
 	background-color: #f9f9f9;
 }
 
-a{
+Link{
     color: #0366d6;
 }
 
@@ -26,13 +26,12 @@ a{
 	margin: 40px auto;
 }
 
-.wrapper .logo img{
+.wrapper .logo{
 	display: block;
 	width: 48px;
 	height: 48px;
 	margin: 0 auto 25px;
 }
-
 .wrapper .title p{
 	margin-bottom: 15px;
 	font-size: 24px;
@@ -73,7 +72,7 @@ a{
     padding: 6px 8px;
 }
 
-.wrapper .form .input_field a.forgot{
+.wrapper .form .input_field .forgot{
 	position: absolute;
 	top:  0;
 	right: 0;
@@ -111,30 +110,7 @@ a{
     margin-bottom: 40px;
 }
 
-.wrapper .create_act a:hover{
+.wrapper .create_act Link:hover{
 	text-decoration: underline;
 }
 
-.wrapper .footer{
-	padding: 40px 0;
-	text-align: center;
-}
-
-.wrapper .footer ul li{
-	display: inline-block;
-}
-
-.wrapper .footer ul li a{
-	font-size: 12px;
-	margin-right: 15px;
-}
-
-.wrapper .footer ul li a:hover,
-.wrapper .footer ul li:last-child a:hover{
-	color: #0366d6;
-	text-decoration: underline;
-}
-
-.wrapper .footer ul li:last-child a{
-	color: #586069;
-}

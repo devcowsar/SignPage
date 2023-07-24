@@ -1,7 +1,7 @@
-import Login from "./Components/log";
+import Login from "./Components/log"
 const Home=()=>{
   return(
-    <div>
+    <div> 
      <Login/>
     </div>
   )
