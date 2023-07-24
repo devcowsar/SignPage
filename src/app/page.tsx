@@ -1,7 +1,8 @@
+import Login from "./Components/log";
 const Home=()=>{
   return(
     <div>
-      sign in page
+     <Login/>
     </div>
   )
 }
